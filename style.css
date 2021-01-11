@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    padding: 0px;
 }
 
 h1{
@@ -11,7 +12,7 @@ h1{
     width: 47%;
     float: left;
     margin: 3px;
-    padding: 3px;
+    padding: 2px;
 }
 
 .link-button{
@@ -43,6 +44,12 @@ section{
     padding: 100px;
 }
 
+.mid-half{
+    box-shadow: 10px 10px 40px gainsboro;
+    border-radius: 5px;
+    width: 30%;
+}
+
 .mid-half img{
     width: 100%;
 }
@@ -50,6 +57,7 @@ section{
 .mid h1{
     text-align: center;
 }
+
 
 .bottom{
     background-image: url(image/Group_33094_1.png);
