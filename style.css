@@ -11,10 +11,12 @@ h1{
 .half-width{
     width: 47%;
     float: left;
-    margin: 3px;
-    padding: 2px;
+    margin: 10px;
+    padding: 6px;
 }
-
+.half-width p{
+    padding: 20px;
+}
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
@@ -28,15 +30,15 @@ h1{
     width: 100%;
 }
 
-.orange-highlight{
+.color-highlight{
     color:#FF8367;
 }
 
 .mid-half{
     width: 30%;
     float: left;
-    padding: 3px;
-    margin: 3px;
+    padding: 6px;
+    margin: 6px;
 }
 
 section{
@@ -64,6 +66,7 @@ section{
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: center;
+    margin-top: 100px;
 }
 
 .link-chat{
@@ -73,3 +76,23 @@ section{
     border-radius: 5px;
     color:white;
     font-weight: 700px;
+}
+
+.bottom-full{
+    position: absolute;
+    display: inline-flex;
+    top: 400%;
+}
+
+.bottom h1{
+    text-indent: 150px;
+    color: white;
+}
+
+.bottom-heading{
+    margin: 0 250px 0 40px;
+}
+
+.bottom-chat{
+    margin: auto;
+}
